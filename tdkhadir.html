@@ -57,7 +57,7 @@
         <p class="desc">Thank you for letting us know. We're sorry you can't make it. We hope to see you next time!</p>
 
         <a href="index.html" class="btn btn-lg">Back to Home</a>
-<button class="btn btn-lg" onclick="toggleMusic()" id="musicBtn">🎵</button>
+<button class="btn btn-lg" onclick="toggleMusic()" id="musicBtn">Play</button>
 <audio id="bgMusic" src="audio/purple.mp3" loop></audio>
       </div>
     </section>
@@ -80,13 +80,14 @@ function playMusic() {
     if (!isPlaying) {
         music.play();
         isPlaying = true;
-        btn.innerText = "⏸"; 
+        btn.innerText = "Pause"; 
     } else {
         music.pause();
         isPlaying = false;
-        btn.innerText = "🎵"; 
+        btn.innerText = "Play"; 
     }
 }
 </script>
 </body>
+
 </html>
