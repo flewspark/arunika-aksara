@@ -1226,16 +1226,19 @@ border-bottom: 5rem solid var(--envelope-cover);
 border-left: 6.5rem solid var(--envelope-cover);
 }
 .envelope > .letter {
-position: absolute;
-right: 50%;
-bottom: 0;
-width: 70%;
-height: 80%;
-background: var(--primary);
-text-align: center;
-transition: all 1s ease-in-out;
-box-shadow: 0 0 0.3125rem var(--shadow-color);
-padding: 1.25rem 0.625rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%); /* agar center */
+  
+  width: 70%;
+  height: 80%;
+  background: var(--primary);
+  text-align: center;
+  transition: all 1s ease-in-out;
+  box-shadow: 0 0 0.3125rem var(--shadow-color);
+  padding: 1.25rem 0.625rem;
+}
 }
 
 .envelope > .letter > .text {
@@ -1277,8 +1280,9 @@ border-radius: 50%;
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 6.25rem;
-  transform: scale(1.5);
+  bottom: 6.25rem;  /* naik lurus */
+  transform: translateX(-50%) scale(1.5); /* tetap center */
+
 }
 .flap > .heart {
   transform: rotate(90deg);
@@ -2275,6 +2279,7 @@ audio {
 }
 
 }
+
 
 
 
