@@ -1227,10 +1227,10 @@ border-left: 6.5rem solid var(--envelope-cover);
 }
 .envelope > .letter {
 position: absolute;
-right: 23%;
+right: 50%;
 bottom: 0;
-width: 54%;
-height: 90%;
+width: 70%;
+height: 80%;
 background: var(--primary);
 text-align: center;
 transition: all 1s ease-in-out;
@@ -1293,7 +1293,6 @@ border-radius: 50%;
 }
 
 .container {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2276,5 +2275,6 @@ audio {
 }
 
 }
+
 
 
