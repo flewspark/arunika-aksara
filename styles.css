@@ -1232,7 +1232,7 @@ border-left: 6.5rem solid var(--envelope-cover);
   transform: translateX(-50%); /* agar center */
   
   width: 70%;
-  height: 80%;
+  height: 90%;
   background: var(--primary);
   text-align: center;
   transition: all 1s ease-in-out;
@@ -2279,6 +2279,7 @@ audio {
 }
 
 }
+
 
 
 
