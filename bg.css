@@ -63,6 +63,7 @@ section .set{
 section .set div{
     position:absolute ;
     display:block ;
+
     width: 0.5rem;
 }
 section .set div{
