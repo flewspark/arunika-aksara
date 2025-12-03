@@ -1291,6 +1291,36 @@ border-radius: 50%;
     align-items: center;
     gap: 1.5625rem; 
 }
+    
+
+  .container {
+    height: auto;          /* jangan paksa 100vh */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .envelope-wrapper > .envelope {
+    transform: scale(0.75); /* kecilkan envelope */
+    transform-origin: top center;
+  }
+
+  .envelope > .letter {
+    right: 50%;
+    transform: translateX(50%); /* pusatkan surat */
+    width: 70%;
+    height: 80%;
+    padding: 0.5rem;
+  }
+
+  .envelope > .letter > .text {
+    font-size: 0.35rem; /* kecilkan font supaya tidak overflow */
+  }
+
+  .heart {
+    transform: translate(-50%, -50%) scale(0.8) rotate(45deg);
+  }
+}
+
 
 .container {
     display: flex;
@@ -2275,6 +2305,7 @@ audio {
 }
 
 }
+
 
 
 
