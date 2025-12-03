@@ -703,7 +703,7 @@ button.btn-primary:hover {
     background-color: #ffb3a1;
 }
     button.music-btn {
-    font-size: 0.8rem !important;
+    font-size: 0.5rem !important;
     font-weight: 700;
     animation: glow 2s ease-in-out infinite alternate, FadeIn 1s ease-in-out;
     padding: 0.5rem 0.75rem;
@@ -1777,5 +1777,6 @@ audio {
 }
 
 }
+
 
 
