@@ -702,6 +702,25 @@ button.btn-primary{
 button.btn-primary:hover {
     background-color: #ffb3a1;
 }
+    button.music-btn {
+    font-size: 0.8rem !important;
+    font-weight: 700;
+    animation: glow 2s ease-in-out infinite alternate, FadeIn 1s ease-in-out;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.625rem;
+    color: #fff;
+    cursor: pointer !important;
+    background-color: var(--peach);
+    border: none;
+    box-shadow: var(--shadow);
+
+    position: fixed;      
+    top: 3rem;         
+    right: 3rem;       
+
+    z-index: 9999;        
+}
+
 
 .form-container .mb-3 {
     margin-bottom: 0.3rem !important; 
@@ -1097,6 +1116,25 @@ button.btn-primary{
 button.btn-primary:hover {
     background-color: #ffb3a1;
 }
+    button.music-btn {
+    font-size: 1rem !important;
+    font-weight: 700;
+    animation: glow 2s ease-in-out infinite alternate, FadeIn 1s ease-in-out;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.625rem;
+    color: #fff;
+    cursor: pointer !important;
+    background-color: var(--peach);
+    border: none;
+    box-shadow: var(--shadow);
+
+    position: fixed;      
+    top: 3rem;         
+    right: 3rem;       
+
+    z-index: 9999;        
+}
+
 
 .form-container .mb-3 {
     margin-bottom: 0.3rem !important; 
@@ -1739,4 +1777,5 @@ audio {
 }
 
 }
+
 
