@@ -68,7 +68,7 @@
     </div>
 
     <a href="rsvp.html" class="rsvp-btn">Bloom with Us!</a>
-    <button class="music-btn" onclick="toggleMusic()" id="musicBtn">🎵</button>
+    <button class="music-btn" onclick="toggleMusic()" id="musicBtn">Play</button>
     <audio id="bgMusic" src="audio/hamster.mp3" loop></audio>
     </div>
 
@@ -95,13 +95,14 @@ function toggleMusic() {
     if (!isPlaying) {
         music.play();
         isPlaying = true;
-        btn.innerText = "⏸"; 
+        btn.innerText = "Pause"; 
     } else {
         music.pause();
         isPlaying = false;
-        btn.innerText = "🎵"; 
+        btn.innerText = "Play"; 
     }
 }
 </script>
 </body>
+
 </html>
