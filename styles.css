@@ -1230,7 +1230,7 @@ position: absolute;
 right: 23%;
 bottom: 0;
 width: 54%;
-height: 85%;
+height: 80%;
 background: var(--primary);
 text-align: center;
 transition: all 1s ease-in-out;
@@ -1242,7 +1242,7 @@ padding: 1.25rem 0.625rem;
   font-family: 'Nothing You Could Do', cursive;
   color: var(--txt-color);
   text-align: left;
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 }
 .heart {
 position: absolute;
@@ -2276,3 +2276,4 @@ audio {
 }
 
 }
+
