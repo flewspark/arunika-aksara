@@ -1599,17 +1599,18 @@ border-bottom: 6.25rem solid var(--envelope-cover);
 border-left: 9.375rem solid var(--envelope-cover);
 }
 .envelope > .letter {
-position: absolute;
-right: 23%;
-bottom: 0;
-width: 54%;
-height: 85%;
-background: var(--primary);
-text-align: center;
-transition: all 1s ease-in-out;
-box-shadow: 0 0 0.3125rem var(--shadow-color);
-padding: 1.25rem 0.625rem;
-}
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%); /* agar center */
+  
+  width: 70%;
+  height: 80%;
+  background: var(--primary);
+  text-align: center;
+  transition: all 1s ease-in-out;
+  box-shadow: 0 0 0.3125rem var(--shadow-color);
+  padding: 1.25rem 0.625rem;
 
 .envelope > .letter > .text {
   font-family: 'Nothing You Could Do', cursive;
@@ -2278,6 +2279,7 @@ audio {
 }
 
 }
+
 
 
 
