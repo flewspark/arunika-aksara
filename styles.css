@@ -1208,7 +1208,7 @@ content: "";
 position: absolute;
 top: 0;
 z-index: 2;
-border-top: 5rem solid var(--envelope-tab);
+border-top: 6.5rem solid var(--envelope-tab);
 border-right: 7.5rem solid transparent;
 border-left: 7.5rem solid transparent;
 transform-origin: top;
@@ -1220,9 +1220,9 @@ position: absolute;
 z-index: 2;
 width: 0;
 height: 0;
-border-top: 5rem solid transparent;
+border-top: 6.5rem solid transparent;
 border-right: 7.5rem solid var(--envelope-cover);
-border-bottom: 6rem solid var(--envelope-cover);
+border-bottom: 7rem solid var(--envelope-cover);
 border-left: 7.5rem solid var(--envelope-cover);
 }
 .envelope > .letter {
@@ -2279,6 +2279,7 @@ audio {
 }
 
 }
+
 
 
 
