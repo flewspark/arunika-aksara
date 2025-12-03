@@ -97,7 +97,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
-        <button class="btn btn-primary" onclick="toggleMusic()" id="musicBtn">🎵</button>
+        <button class="btn btn-primary" onclick="toggleMusic()" id="musicBtn">Play</button>
 </div>
 </form>    
 <audio id="bgMusic" src="audio/bunny.mp3" loop autoplay></audio>
@@ -147,13 +147,14 @@ function playMusic() {
     if (!isPlaying) {
         music.play();
         isPlaying = true;
-        btn.innerText = "⏸"; 
+        btn.innerText = "Pause"; 
     } else {
         music.pause();
         isPlaying = false;
-        btn.innerText = "🎵"; 
+        btn.innerText = "Play"; 
     }
 }
 </script>
 </body>
+
 </html>
