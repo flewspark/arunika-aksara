@@ -1201,7 +1201,7 @@ button.btn-primary:hover {
 .envelope-wrapper > .envelope {
 position: relative;
 width: 13rem;
-height: 11rem;
+height: 10rem;
 }
 .envelope-wrapper > .envelope::before {
 content: "";
@@ -1231,7 +1231,7 @@ border-left: 6.5rem solid var(--envelope-cover);
   bottom: 0;
   transform: translateX(-50%); /* agar center */
   
-  width: 70%;
+  width: 60%;
   height: 90%;
   background: var(--primary);
   text-align: center;
@@ -2279,6 +2279,7 @@ audio {
 }
 
 }
+
 
 
 
