@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arunika Aksara</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bg.css">
+</head>
+
+<body>
+    <section class="hero w-100 h-100 p-3 mx-auto d-flex justify-content-center align-items-center">
+<div class="fallen-bg">
+    <div class="set" style="pointer-events:none;">
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+        </div>
+
+        <div class="set set2">
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+        </div>
+
+        <div class="set set3">
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+        </div>
+        
+
+<div class="main-wrapper">
+<div class="title-text">
+        <h3 class="mb-4 glow">Click the envelope to open your invitation!</h3>
+    </div>
+
+    <div class="envelope-wrapper">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <p><strong>Dear,You.</strong></p>
+                    <p>With heartfelt joy, we invite you to join us to celebrating <strong>Arunika Aksara!</strong> 🌸</p>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+
+    <a href="rsvp.html" class="rsvp-btn">Bloom with Us!</a>
+    <button class="music-btn" onclick="toggleMusic()" id="musicBtn">🎵</button>
+    <audio id="bgMusic" src="audio/hamster.mp3" loop></audio>
+    </div>
+
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+    <script>
+function playMusic() {
+    const music = document.getElementById("bgMusic");
+    music.play();
+}
+</script>
+
+<script>
+let isPlaying = false;
+
+function toggleMusic() {
+    const music = document.getElementById("bgMusic");
+    const btn = document.getElementById("musicBtn");
+
+    if (!isPlaying) {
+        music.play();
+        isPlaying = true;
+        btn.innerText = "⏸"; 
+    } else {
+        music.pause();
+        isPlaying = false;
+        btn.innerText = "🎵"; 
+    }
+}
+</script>
+</body>
+</html>

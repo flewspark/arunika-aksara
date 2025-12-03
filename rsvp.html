@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arunika Aksara</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bg.css">
+  </head>
+
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto d-flex justify-content-center align-items-center">
+
+      <div class="set" style="pointer-events:none;">
+
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+        </div>
+
+        <div class="set set2">
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+        </div>
+
+        <div class="set set3">
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+            <div><img src="img/daun1.png"></div>
+            <div><img src="img/bunga1.png"></div>
+            <div><img src="img/daun2.png"></div>
+            <div><img src="img/bunga2.png"></div>
+        </div>
+
+        <div class = "title-text-rsvp">
+          <h3 class="mb-4 glow">Please fill out the RSVP form below:</h3>
+
+        <form method="POST" action="https://script.google.com/macros/s/AKfycbyCpxudiDicgEt-RGAU7wSOBxSA-VfnBJWofn2J0rF1Swps9n4dORLWMZHCs3A2wpGzyw/exec" id="my-form">
+            <div class="form-container">
+
+        <div class="mb-3">
+          <label for="Nama" class="form-label">Nama</label>
+          <input type="text" class="form-control" id="Nama" name="Nama" required> 
+        </div>
+
+        <div class="mb-3">
+          <label for="NIM" class="form-label">NIM</label>
+          <input type="text" class="form-control" id="NIM" name="NIM" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="Prodi" class="form-label">Program Studi</label>
+          <select class="form-select" id="Prodi" name="Prodi">
+            <option selected>Pilih Program Studi</option>
+            <option value="Informatika">Informatika</option>
+            <option value="Sains Data">Sains Data</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="Angkatan" class="form-label">Angkatan</label>
+          <select class="form-select" id="Angkatan" name="Angkatan">
+            <option selected>Pilih Angkatan</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="Kehadiran" class="form-label">Kehadiran</label>
+          <select class="form-select" id="Kehadiran" name="Kehadiran">
+            <option selected>Pilih Kehadiran</option>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button class="btn btn-primary" onclick="toggleMusic()" id="musicBtn">🎵</button>
+</div>
+</form>    
+<audio id="bgMusic" src="audio/bunny.mp3" loop autoplay></audio>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script>
+window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = form.action;
+
+    const kehadiran = document.getElementById("Kehadiran").value;
+
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      if (kehadiran === "Hadir") {
+        window.location.href = "hadir.html";
+      } else if (kehadiran === "Tidak Hadir") {
+        window.location.href = "tdkhadir.html";
+      }
+    });
+  });
+});
+</script>
+<script>
+function playMusic() {
+    const music = document.getElementById("bgMusic");
+    music.play();
+}
+</script>
+<script> 
+  
+  let isPlaying = false;
+  
+  function toggleMusic() {
+    const music = document.getElementById("bgMusic");
+    const btn = document.getElementById("musicBtn");
+
+    if (!isPlaying) {
+        music.play();
+        isPlaying = true;
+        btn.innerText = "⏸"; 
+    } else {
+        music.pause();
+        isPlaying = false;
+        btn.innerText = "🎵"; 
+    }
+}
+</script>
+</body>
+</html>
