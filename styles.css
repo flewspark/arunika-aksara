@@ -1222,7 +1222,7 @@ width: 0;
 height: 0;
 border-top: 6.5rem solid transparent;
 border-right: 7.5rem solid var(--envelope-cover);
-border-bottom: 7rem solid var(--envelope-cover);
+border-bottom: 6.5rem solid var(--envelope-cover);
 border-left: 7.5rem solid var(--envelope-cover);
 }
 .envelope > .letter {
@@ -1650,9 +1650,8 @@ border-radius: 50%;
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 6.25rem;
-  transform: scale(1.5);
-  transition-delay: 1s;
+  bottom: 6.25rem;  /* naik lurus */
+  transform: translateX(-50%) scale(1.5); /* tetap center */
 }
 .flap > .heart {
   transform: rotate(90deg);
@@ -2279,6 +2278,7 @@ audio {
 }
 
 }
+
 
 
 
