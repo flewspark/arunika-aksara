@@ -56,7 +56,7 @@
         <p class="desc">Thank you for confirming your attendance! We look forward to seeing you at Arunika Aksara!</p>
 
         <a href="index.html" class="btn btn-lg">Back to Home</a>
-<button class="btn btn-lg" onclick="toggleMusic()" id="musicBtn">🎵</button>
+<button class="btn btn-lg" onclick="toggleMusic()" id="musicBtn">Play</button>
 
             <audio id="bgMusic" src="audio/toro.mp3" loop></audio>
       </div>
@@ -80,15 +80,16 @@ function toggleMusic() {
     if (!isPlaying) {
         music.play();
         isPlaying = true;
-        btn.innerText = "⏸"; 
+        btn.innerText = "Pause"; 
     } else {
         music.pause();
         isPlaying = false;
-        btn.innerText = "🎵"; 
+        btn.innerText = "Play"; 
     }
 }
 </script>
       </div>
     </section>
   </body>
+
 </html>
