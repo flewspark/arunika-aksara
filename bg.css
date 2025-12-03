@@ -1,4 +1,5 @@
 
+} 
 section{
     position:relative ;
     width:100%;
@@ -52,6 +53,32 @@ section img{
     width:4rem;
     height:auto;
 }
+ section{
+    position:relative ;
+    width:100%;
+    height:100vh;
+    background:linear-gradient( #333, #000);
+    overflow:hidden ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#section div{
+    position:relative ;
+    width:100%;
+    height:100vh;
+    background:linear-gradient( #333, #000);
+    overflow:hidden ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+section h2{
+    color:#fff;
+    font-size:2em;
+    text-transform:uppercase ;
+    text-shadow:0 1px 4px red;
+}
 section .set{
     position:absolute ;
     width:100%;
@@ -63,8 +90,6 @@ section .set{
 section .set div{
     position:absolute ;
     display:block ;
-    top:-10%;
-    width: 0.5rem;
 }
 section .set div:nth-child(1){
     left:20%;
@@ -140,39 +165,6 @@ section .set div:nth-child(8){
     transform:scale(0.8) rotateX(180deg);
     filter:blur(4px);
 }
-
-.leaves-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none; 
-  overflow: hidden;
-
-}
-.leaves-background img {
-  position: absolute;
-  width: 100px; 
-  height: auto;
-  animation: fall 10s linear infinite;
-  opacity: 0.8;
-}
-
-@keyframes fall {
-  0% {
-    top: -10%;
-    transform: translateX(0) rotate(0deg);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    top: 110%;
-    transform: translateX(20px) rotate(360deg);
-    opacity: 0;
-  }
 }
 .leaves-background img:nth-child(odd) {
   position: fixed;
@@ -200,6 +192,7 @@ body {
     position: relative;
     z-index: 10;
 }
+
 
 
 
