@@ -1036,7 +1036,7 @@ background-blend-mode: overlay;
 
 .hero h1 {
     font-family: 'Henny Penny', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #ffffff;
     text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
@@ -1047,7 +1047,7 @@ background-blend-mode: overlay;
 
 .hero h3 {
     font-family: 'Mountains of Christmas', cursive;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #ffffff;
     text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
@@ -1064,7 +1064,7 @@ h3 .mb-4 {
     background-color: var(--peach);
     color: #fff;
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 1rem;
     box-shadow: var(--shadow);
     transition: background-color 0.3s, color 0.3s;
     margin-top: 1.875rem;
@@ -1200,8 +1200,8 @@ button.btn-primary:hover {
 }
 .envelope-wrapper > .envelope {
 position: relative;
-width: 13rem;
-height: 10rem;
+width: 15rem;
+height: 13rem;
 }
 .envelope-wrapper > .envelope::before {
 content: "";
@@ -1305,7 +1305,7 @@ border-radius: 50%;
   .rsvp-btn {
     margin-top: 1.5rem;
     padding: 0.6rem 1.25rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
 
@@ -2279,6 +2279,7 @@ audio {
 }
 
 }
+
 
 
 
