@@ -1273,7 +1273,7 @@ border-radius: 50%;
 }
 .flap > .envelope > .letter {
   bottom: 6.25rem;  /* naik lurus */
-  transform: translateX(-50%) scale(1.5); /* tetap center */
+  transform: translateX(-20%) scale(1.5); /* tetap center */
 
 }
 .flap > .heart {
@@ -2295,6 +2295,7 @@ audio {
 }
 
 }
+
 
 
 
