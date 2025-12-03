@@ -970,7 +970,7 @@ audio {
 
 /*hp besar*/
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 361px) and (max-width: 480px) {
 
 body {
     font-size: 1.2rem;
@@ -1402,7 +1402,7 @@ audio {
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
 body {
     font-size: 1.2rem;
@@ -2297,6 +2297,7 @@ audio {
 }
 
 }
+
 
 
 
