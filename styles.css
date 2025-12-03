@@ -1192,11 +1192,6 @@ button.btn-primary:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
-}
-.container > .envelope-wrapper {
-  background: var(--bg-envelope-color);
-  box-shadow: 0 0 2.5rem var(--shadow-color);
 }
 .envelope-wrapper > .envelope {
 position: relative;
@@ -1226,13 +1221,16 @@ border-bottom: 6.5rem solid var(--envelope-cover);
 border-left: 7.5rem solid var(--envelope-cover);
 }
 .envelope > .letter {
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    width: 80%;      /* sedikit lebih lebar di HP */
-    height: 85%;     /* agar isi tetap terbaca */
-    padding: 1rem 0.5rem;
-}
+position: absolute;
+right: 23%;
+bottom: 0;
+width: 54%;
+height: 85%;
+background: var(--primary);
+text-align: center;
+transition: all 1s ease-in-out;
+box-shadow: 0 0 0.3125rem var(--shadow-color);
+padding: 1.25rem 0.625rem;
 }
 
 .envelope > .letter > .text {
@@ -2297,6 +2295,7 @@ audio {
 }
 
 }
+
 
 
 
