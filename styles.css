@@ -238,13 +238,11 @@ body{
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
   box-shadow: 0 0 2.5rem var(--shadow-color);
-  animation: FadeIn 1s ease-in-out;
 }
 .envelope-wrapper > .envelope {
 position: relative;
 width: 18.75rem;
 height: 14.375rem;
-animation: FadeIn 1s ease-in-out;
 }
 .envelope-wrapper > .envelope::before {
 content: "";
@@ -256,7 +254,6 @@ border-right: 9.375rem solid transparent;
 border-left: 9.375rem solid transparent;
 transform-origin: top;
 transition: all 0.5s ease-in-out 0.7s;
-animation: FadeIn 1s ease-in-out;
 }
 .envelope-wrapper > .envelope::after {
 content: "";
@@ -268,7 +265,6 @@ border-top: 8.125rem solid transparent;
 border-right: 9.375rem solid var(--envelope-cover);
 border-bottom: 6.25rem solid var(--envelope-cover);
 border-left: 9.375rem solid var(--envelope-cover);
-animation: FadeIn 1s ease-in-out;
 }
 .envelope > .letter {
 position: absolute;
@@ -281,7 +277,6 @@ text-align: center;
 transition: all 1s ease-in-out;
 box-shadow: 0 0 0.3125rem var(--shadow-color);
 padding: 1.25rem 0.625rem;
-animation: FadeIn 1s ease-in-out;
 }
 
 .envelope > .letter > .text {
@@ -289,7 +284,6 @@ animation: FadeIn 1s ease-in-out;
   color: var(--txt-color);
   text-align: left;
   font-size: 0.625rem;
-  animation: FadeIn 1s ease-in-out;
 }
 .heart {
 position: absolute;
@@ -303,7 +297,6 @@ transform: translate(-50%, -50%) rotate(45deg);
 transition: transform 0.5s ease-in-out 1s;
 box-shadow: 0 0.0625rem 0.375rem var(--shadow-color);
 cursor: pointer;
-animation: FadeIn 1s ease-in-out;
 }
 .heart:before,
 .heart:after {
@@ -313,7 +306,6 @@ width: 0.9375rem;
 height: 0.9375rem;
 background-color: var(--heart-color);
 border-radius: 50%;
-animation: FadeIn 1s ease-in-out;
 }
 .heart:before {
   top: -0.46875rem;
@@ -347,95 +339,6 @@ animation: FadeIn 1s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.rsvp-btn {
-    display: inline-block;
-    background-color: var(--peach);
-    padding: 0.75rem 1.625rem;
-    border-radius: 0.625rem;
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-    box-shadow: var(--shadow);
-    transition: 0.3s;
-    animation: FadeIn 1s ease-in-out;
-}
-
-.rsvp-btn:hover {
-    background-color: #ffb3a1;
-}
-
-.main-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5625rem;
-}
-
-.envelope-wrapper {
-    background: transparent !important;
-    box-shadow: none !important;
-}
-
-.envelope-wrapper > .envelope {
-    width: 18.75rem;
-    height: 14.375rem;
-    background: var(--bg-envelope-color);
-    position: relative;
-    overflow: visible;
-    border-radius: 0.3125rem;
-}
-
-.envelope-wrapper > .envelope:before {
-    border-top: 8.125rem solid var(--envelope-tab);
-}
-
-.envelope-wrapper > .envelope:after {
-    border-bottom: 6.25rem solid var(--envelope-cover);
-}
-
-.rsvp-btn {
-    background-color: var(--peach);
-    padding: 0.75rem 1.625rem;
-    border-radius: 0.625rem;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: var(--shadow);
-    transition: 0.3s;
-}
-
-.rsvp-btn:hover {
-    background-color: #ffb3a1;
-}
-
-.envelope.open .letter {
-    top: -15rem;
-    transition: 0.8s ease-out;
-}
-.envelope.open .heart {
-    transform: translate(-50%, -50%) rotate(45deg);
-
-}
-.envelope.open::before {
-    transform: rotateX(180deg);
-    transition: all 0.5s ease-in-out 0.2s;
-}
-.envelope.open::after {
-    border-bottom-color: var(--envelope-tab);
-    transition: all 0.5s ease-in-out 0.2s;
-}
-.envelope.open .letter {
-    top: -12.5rem;
-    transition: 0.8s ease-out;
-}
-.flap > .envelope.open .letter {
-    top: -18.75rem;
-    transform: scale(1.5);
-    transition-delay: 0.5s;
     
 }
 
@@ -2295,6 +2198,7 @@ audio {
 }
 
 }
+
 
 
 
