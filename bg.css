@@ -216,7 +216,7 @@ body::before {
 }
 
 /* Mobile responsiveness (tablets/phones) */
-@media (max-width: 360px) {
+@media (max-width: 769px) {
     section {
         min-height: 100vh; /* Ensure full height */
     }
@@ -256,3 +256,4 @@ body::before {
         100% { opacity: 0; }
     }
 }
+
