@@ -1241,7 +1241,7 @@ padding: 1.25rem 0.625rem;
 }
 .heart {
 position: absolute;
-top: 48%;
+top: 52%;
 left: 51%;
 width: 0.9375rem;
 height: 0.9375rem;
@@ -2295,6 +2295,7 @@ audio {
 }
 
 }
+
 
 
 
