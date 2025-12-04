@@ -56,7 +56,7 @@
             <h1 class="glow">Aksara</h1>
             <h3 class="glow">Rise Higher, Shine Brighter</h3>
             <a href="envelope.html" class="btn btn-lg">Begin the Bloom</a>
-            <button class="btn btn-lg" onclick="toggleMusic()" id="musicBtn">🎵</button>
+            <button class="btn btn-lg" onclick="toggleMusic()" id="musicBtn">Play</button>
 
             <audio id="bgMusic" src="audio/coffeetime.mp3" loop></audio>
         </main>
@@ -80,15 +80,16 @@ function toggleMusic() {
     if (!isPlaying) {
         music.play();
         isPlaying = true;
-        btn.innerText = "⏸"; 
+        btn.innerText = "Pause"; 
     } else {
         music.pause();
         isPlaying = false;
-        btn.innerText = "🎵"; 
+        btn.innerText = "Play"; 
     }
 }
 </script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
+
 </html>
