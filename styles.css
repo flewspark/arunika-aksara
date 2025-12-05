@@ -1,6 +1,6 @@
 :root {
     --peach: #a8516e;
-    --lavender: 
+    --hover: #47222e;
     --bg: img/bg5.jpg;
     --shadow: 0 0 5px rgba(255, 255, 255, 0.8),
                   0 0 10px rgba(255, 255, 255, 0.6),
@@ -117,7 +117,7 @@ background-blend-mode: overlay;
 }
 
 .hero .btn:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
     color: #fff;
 }
 
@@ -146,9 +146,9 @@ background-blend-mode: overlay;
                     0 0 15px rgba(222, 159, 226, 0.4);
     }
     to {
-        text-shadow: 0 0 20px rgba(222, 159, 226, 1),
-                    0 0 25px rgba(222, 159, 226, 0.8),
-                    0 0 30px rgba(222, 159, 226, 0.6);
+        text-shadow: 0 0 15px rgba(222, 159, 226, 1),
+                    0 0 20px rgba(222, 159, 226, 0.8),
+                    0 0 25px rgba(222, 159, 226, 0.6);
     }
     
 }
@@ -192,7 +192,7 @@ button.btn-primary {
 }
 
 button.btn-primary:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
     
 } 
 
@@ -213,6 +213,10 @@ button.music-btn {
     right: 3rem;       
 
     z-index: 9999;        
+}
+button.music-btn: hover {
+    background-color: var(--hover);
+
 }
 
 
@@ -364,7 +368,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color: var(--peach);
+    background-color:var(--hover);
 }
 
 .main-wrapper {
@@ -410,7 +414,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color: var(--peach);
+    background-color: var(--hover);
 }
 
 .envelope.open .letter {
@@ -461,7 +465,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
 }
 
 .main-wrapper {
@@ -507,7 +511,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
 }
 
 .envelope.open .letter {
@@ -552,18 +556,6 @@ animation: FadeIn 1s ease-in-out;
     position: relative;
     top: 1.875rem;
     animation: FadeIn 1s ease-in-out;
-}
- @keyframes glow {
-    from {
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
-                     0 0 10px rgba(255, 255, 255, 0.6),
-                     0 0 15px rgba(255, 255, 255, 0.4);
-    }
-    to {
-        text-shadow: 0 0 20px rgba(255, 255, 255, 1),
-                     0 0 25px rgba(255, 255, 255, 0.8),
-                     0 0 30px rgba(255, 255, 255, 0.6);
-    }
 }
 
 audio {
@@ -706,11 +698,6 @@ background-blend-mode: overlay;
     margin-top: 1.875rem;
 }
 
-.hero .btn:hover {
-    background-color:  var(--peach);
-    color: #fff;
-}
-
 .wrrapper {
     background-color: var(--bg);
     padding: 3.125rem 1.25rem;
@@ -776,7 +763,7 @@ button.btn-primary{
 }
 
 button.btn-primary:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
 }
 
 .form-container .mb-3 {
@@ -1061,7 +1048,7 @@ background-blend-mode: overlay;
 }
 
 .hero .btn:hover {
-    background-color: #ffb3a1;
+    background-color: var(--hover);
 }
 
 .wrrapper {
@@ -1135,7 +1122,7 @@ button.btn-primary{
     flex: 0 0 auto !important; 
 }
 button.btn-primary:hover {
-    background-color: #ffb3a1;
+    background-color: var(--hover);
 }
 
 .form-container .mb-3 {
@@ -1411,7 +1398,7 @@ background-blend-mode: overlay;
 }
 
 .hero .btn:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
     color: #fff;
 }
 
@@ -1445,7 +1432,7 @@ transform: translateX(-50%);
 box-sizing: border-box;
 
 }
-#Nama, #NIM {
+#Nama, #NIM, #Prodi, #Kehadiran {
     box-shadow: none;
 }
 input.form-control, select.form-control {
@@ -1461,7 +1448,7 @@ button.btn-primary {
 }
 
 button.btn-primary:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
     
 } 
 
@@ -1603,7 +1590,7 @@ border-radius: 50%;
 }
 
 .rsvp-btn:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
 }
 
 .main-wrapper {
@@ -1649,7 +1636,7 @@ border-radius: 50%;
 }
 
 .rsvp-btn:hover {
-    background-color:  var(--peach);
+    background-color:  var(--hover);
 }
 
 .envelope.open .letter {
@@ -1741,6 +1728,7 @@ audio {
 }
 
 }
+
 
 
 
