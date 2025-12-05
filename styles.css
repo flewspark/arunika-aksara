@@ -962,7 +962,7 @@ audio {
 
 /*hp besar*/
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 361px) and (max-width: 480px) {
 
 body {
     font-size: 1.2rem;
@@ -2086,6 +2086,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
