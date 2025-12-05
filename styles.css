@@ -1345,7 +1345,7 @@ z-index: -2;
 }
 .logo-img {
     background-origin: padding-box;
-    border-radius: 1.875rem;
+    border-radius: 40%rem;
     background-color: rgb(255, 255, 255);
     padding:0.625rem;
     width: 12.5rem;
@@ -1736,6 +1736,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
