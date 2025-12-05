@@ -141,14 +141,14 @@ background-blend-mode: overlay;
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 5px rgba(222, 159, 226, 0.8),
-                    0 0 10px rgba(222, 159, 226, 0.6),
-                    0 0 15px rgba(222, 159, 226, 0.4);
+        text-shadow: 0 0 5px rgb(253,253,150, 0.8),
+                    0 0 10px rgba(253,253,150, 0.6),
+                    0 0 15px rgba(253,253,150, 0.4);
     }
     to {
-        text-shadow: 0 0 15px rgba(222, 159, 226, 1),
-                    0 0 20px rgba(222, 159, 226, 0.8),
-                    0 0 25px rgba(222, 159, 226, 0.6);
+        text-shadow: 0 0 15px rgba(253,253,150, 1),
+                    0 0 20px rgba(253,253,150, 0.8),
+                    0 0 25px rgba(253,253,150, 0.6);
     }
     
 }
@@ -1736,6 +1736,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
