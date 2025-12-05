@@ -991,8 +991,8 @@ z-index: -2;
     background-origin: padding-box;
     border-radius: 2.2rem;
     background-color: rgb(255, 255, 255);
-    padding:2rem;
-    width: 6rem;
+    padding:1rem;
+    width: 7rem;
     margin-bottom: 0.625rem;
     position: absolute;   
     top: 1.25rem;            
@@ -1736,6 +1736,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
