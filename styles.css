@@ -989,9 +989,9 @@ z-index: -2;
 }
 .logo-img {
     background-origin: padding-box;
-    border-radius: 0.825rem;
+    border-radius: 1rem;
     background-color: rgb(255, 255, 255);
-    padding:1rem;
+    padding: 0.825rem;
     width: 7rem;
     margin-bottom: 0.625rem;
     position: absolute;   
@@ -1736,6 +1736,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
