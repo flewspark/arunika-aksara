@@ -141,14 +141,14 @@ background-blend-mode: overlay;
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
-                     0 0 10px rgba(255, 255, 255, 0.6),
-                     0 0 15px rgba(255, 255, 255, 0.4);
+        text-shadow: 0 0 5px rgba(222, 159, 226, 0.8),
+                    0 0 10px rgba(222, 159, 226, 0.6),
+                    0 0 15px rgba(222, 159, 226, 0.4);
     }
     to {
-        text-shadow: 0 0 20px rgba(255, 255, 255, 1),
-                     0 0 30px rgba(255, 255, 255, 0.8),
-                        0 0 40px rgba(255, 255, 255, 0.6);
+        text-shadow: 0 0 20px rgba(222, 159, 226, 0.8),
+                    0 0 25px rgba(222, 159, 226, 0.6),
+                    0 0 30px rgba(222, 159, 226, 0.4);
     }
     
 }
@@ -1072,7 +1072,7 @@ background-blend-mode: overlay;
     font-family: 'Henny Penny', cursive;
     font-size: 3rem;
     font-weight: 700;
-    color: #7d5776;
+    color: #fff;
     text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
                   0 0 10px rgba(255, 255, 255, 0.6),
                   0 0 15px rgba(255, 255, 255, 0.4);
@@ -1784,6 +1784,7 @@ audio {
 }
 
 }
+
 
 
 
