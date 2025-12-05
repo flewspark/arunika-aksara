@@ -117,7 +117,7 @@ background-blend-mode: overlay;
 }
 
 .hero .btn:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
     color: #fff;
 }
 
@@ -192,7 +192,7 @@ button.btn-primary {
 }
 
 button.btn-primary:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
     
 } 
 
@@ -410,7 +410,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color: #ffb3a1;
+    background-color: var(--peach);
 }
 
 .envelope.open .letter {
@@ -650,7 +650,7 @@ z-index: -2;
     border-radius: 1.875rem;
     background-color: rgb(255, 255, 255);
     padding:0.625rem;
-    width: 8rem;
+    width: 10rem;
     margin-bottom: 0.625rem;
     position: absolute;   
     top: 1.25rem;            
@@ -686,28 +686,28 @@ background-blend-mode: overlay;
 
 .hero h1 {
     font-family: 'Henny Penny', cursive;
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-weight: 700;
     
 
 }
 .hero h3 {
     font-family: 'Mountains of Christmas', cursive;
-    font-size: 1.2rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 .hero .btn {
     background-color: var(--peach);
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 3rem;
     box-shadow: var(--shadow);
     transition: background-color 0.3s, color 0.3s;
     margin-top: 1.875rem;
 }
 
 .hero .btn:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
     color: #fff;
 }
 
@@ -765,7 +765,7 @@ select.form-control {
 }
 
 button.btn-primary{
-    font-size: 0.7rem !important;       
+    font-size: 3rem !important;       
     padding: 0.4rem 0.6rem;  
     background-color: var(--peach);
     border: none;
@@ -776,15 +776,15 @@ button.btn-primary{
 }
 
 button.btn-primary:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
 }
 
 .form-container .mb-3 {
     margin-bottom: 0.3rem !important; 
 }
 .form-container .btn-primary {
-    width: auto !important;      /* agar tidak ikut 40% */
-    padding: 0.35rem 0.8rem;     /* sesuaikan ukuran */
+    width: auto !important;      
+    padding: 0.35rem 0.8rem;    
     font-size: 0.8rem;
     flex: 0 0 auto !important; 
 }
@@ -846,7 +846,7 @@ padding: 1.25rem 0.625rem;
   font-family: 'Nothing You Could Do', cursive;
   color: var(--txt-color);
   text-align: left;
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 }
 .heart {
 position: absolute;
@@ -1741,6 +1741,7 @@ audio {
 }
 
 }
+
 
 
 
