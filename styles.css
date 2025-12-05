@@ -642,7 +642,7 @@ z-index: -2;
     border-radius: 1.875rem;
     background-color: rgb(255, 255, 255);
     padding:0.625rem;
-    width: 10rem;
+    width: 9rem;
     margin-bottom: 0.625rem;
     position: absolute;   
     top: 1.25rem;            
@@ -678,14 +678,14 @@ background-blend-mode: overlay;
 
 .hero h1 {
     font-family: 'Henny Penny', cursive;
-    font-size: 4.5rem;
+    font-size: 3.7rem;
     font-weight: 700;
     
 
 }
 .hero h3 {
     font-family: 'Mountains of Christmas', cursive;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 
@@ -1028,14 +1028,14 @@ background-blend-mode: overlay;
 
 .hero h1 {
     font-family: 'Henny Penny', cursive;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     
 }
 
 .hero h3 {
     font-family: 'Mountains of Christmas', cursive;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
    
 }
@@ -1264,6 +1264,7 @@ border-radius: 50%;
     text-align: center;
     position: relative;
     top: 1.875rem;
+    font-size: 1.5rem;
 
 }
 
@@ -1735,6 +1736,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
