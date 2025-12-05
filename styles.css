@@ -215,25 +215,6 @@ button.music-btn {
     z-index: 9999;        
 }
 
-button.musfour-btn {
-    font-size: 1.5rem !important;
-    font-weight: 700;
-    animation: glow 2s ease-in-out infinite alternate, FadeIn 1s ease-in-out;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.625rem;
-    color: #fff;
-    cursor: pointer !important;
-    background-color: var(--peach);
-    border: none;
-    box-shadow: var(--shadow);
-
-    position: fixed;      
-    top: 3rem;         
-    right: 3rem;       
-
-    z-index: 9999;        
-}
-
 
 :root{
   --primary: #fff;
@@ -383,7 +364,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color: #ffb3a1;
+    background-color: var(--peach);
 }
 
 .main-wrapper {
@@ -1760,6 +1741,7 @@ audio {
 }
 
 }
+
 
 
 
