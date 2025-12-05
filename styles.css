@@ -639,7 +639,7 @@ z-index: -2;
 }
 .logo-img {
     background-origin: padding-box;
-    border-radius: 40%;
+    border-radius: 3rem;
     background-color: rgb(255, 255, 255);
     padding:0.625rem;
     width: 6.5rem;
@@ -678,7 +678,7 @@ background-blend-mode: overlay;
 
 .hero h1 {
     font-family: 'Henny Penny', cursive;
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     font-weight: 700;
     
 
@@ -2086,6 +2086,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
