@@ -1072,7 +1072,7 @@ background-blend-mode: overlay;
     font-family: 'Henny Penny', cursive;
     font-size: 3rem;
     font-weight: 700;
-    color: #f5edd1;
+    color: #7d5776;
     text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
                   0 0 10px rgba(255, 255, 255, 0.6),
                   0 0 15px rgba(255, 255, 255, 0.4);
@@ -1784,5 +1784,6 @@ audio {
 }
 
 }
+
 
 
