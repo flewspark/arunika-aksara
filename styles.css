@@ -707,10 +707,6 @@ background-blend-mode: overlay;
     font-family: 'Henny Penny', cursive;
     font-size: 3rem;
     font-weight: 700;
-    color: #ffffff;
-    text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
-                  0 0 10px rgba(255, 255, 255, 0.6),
-                  0 0 15px rgba(255, 255, 255, 0.4);
     
 
 }
@@ -718,15 +714,10 @@ background-blend-mode: overlay;
     font-family: 'Mountains of Christmas', cursive;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #ffffff;
-    text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
-                  0 0 10px rgba(255, 255, 255, 0.6),
-                  0 0 15px rgba(255, 255, 255, 0.4);
 }
 
 .hero .btn {
     background-color: var(--peach);
-    color: #fff;
     font-weight: 600;
     font-size: 0.875rem;
     box-shadow: var(--shadow);
@@ -939,7 +930,6 @@ border-radius: 50%;
 
 
 .title-text h3 {
-    color: #fff;
     text-shadow: var(--shadow);
     animation: glow 2s ease-in-out infinite alternate;
     font-size: medium;
@@ -978,7 +968,6 @@ audio {
 
 .title {
     font-size: 2rem !important;
-    color: #ffffff;
     margin-bottom: 2.5rem;
     font-family: 'Henny Penny', cursive;
 }
@@ -986,7 +975,6 @@ audio {
 .desc {
     font-size: 1rem !important;
     letter-spacing: 0.0625rem;
-    color: white;
     margin-bottom: 1.25rem;
 }
 
@@ -1072,10 +1060,6 @@ background-blend-mode: overlay;
     font-family: 'Henny Penny', cursive;
     font-size: 3rem;
     font-weight: 700;
-    color: #FFE5B4;
-    text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
-                  0 0 10px rgba(255, 255, 255, 0.6),
-                  0 0 15px rgba(255, 255, 255, 0.4);
     
 }
 
@@ -1083,15 +1067,11 @@ background-blend-mode: overlay;
     font-family: 'Mountains of Christmas', cursive;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #ffffff;
-    text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
-                  0 0 10px rgba(255, 255, 255, 0.6),
-                  0 0 15px rgba(255, 255, 255, 0.4);
+   
 }
 
 .hero .btn {
     background-color: var(--peach);
-    color: #fff;
     font-weight: 600;
     font-size: 0.875rem;
     box-shadow: var(--shadow);
@@ -1101,7 +1081,6 @@ background-blend-mode: overlay;
 
 .hero .btn:hover {
     background-color: #ffb3a1;
-    color: #fff;
 }
 
 .wrrapper {
@@ -1304,7 +1283,6 @@ border-radius: 50%;
 
 
 .title-text h3 {
-    color: #FFE5B4;
     text-shadow: var(--shadow);
     animation: glow 2s ease-in-out infinite alternate;
     font-size: medium;
@@ -1343,7 +1321,6 @@ audio {
 
 .title {
     font-size: 2rem !important;
-    color: #FFE5B4;
     margin-bottom: 2.5rem;
     font-family: 'Henny Penny', cursive;
 }
@@ -1351,7 +1328,6 @@ audio {
 .desc {
     font-size: 1rem !important;
     letter-spacing: 0.0625rem;
-    color: #FFE5B4;
     margin-bottom: 1.25rem;
 }
 
@@ -1784,6 +1760,7 @@ audio {
 }
 
 }
+
 
 
 
