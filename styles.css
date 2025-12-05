@@ -639,7 +639,7 @@ z-index: -2;
 }
 .logo-img {
     background-origin: padding-box;
-    border-radius: 50%;
+    border-radius: 40%;
     background-color: rgb(255, 255, 255);
     padding:0.625rem;
     width: 6.5rem;
@@ -1736,6 +1736,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
