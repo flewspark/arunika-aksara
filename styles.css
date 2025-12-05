@@ -1304,7 +1304,7 @@ border-radius: 50%;
 
 
 .title-text h3 {
-    color: #fff;
+    color: #FFE5B4;
     text-shadow: var(--shadow);
     animation: glow 2s ease-in-out infinite alternate;
     font-size: medium;
@@ -1343,7 +1343,7 @@ audio {
 
 .title {
     font-size: 2rem !important;
-    color: #ffffff;
+    color: #FFE5B4;
     margin-bottom: 2.5rem;
     font-family: 'Henny Penny', cursive;
 }
@@ -1351,7 +1351,7 @@ audio {
 .desc {
     font-size: 1rem !important;
     letter-spacing: 0.0625rem;
-    color: white;
+    color: #FFE5B4;
     margin-bottom: 1.25rem;
 }
 
@@ -1784,6 +1784,7 @@ audio {
 }
 
 }
+
 
 
 
