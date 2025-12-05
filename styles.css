@@ -1739,13 +1739,8 @@ background-blend-mode: overlay;
 
 .hero h1 {
     font-family: 'Henny Penny', cursive;
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: 700;
-    color: #fada5e;
-    text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
-                  0 0 10px rgba(255, 255, 255, 0.6),
-                  0 0 15px rgba(255, 255, 255, 0.4);
-    
 }
 
 .hero .btn {
@@ -2091,6 +2086,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
