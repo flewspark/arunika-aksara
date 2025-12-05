@@ -461,7 +461,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
 }
 
 .main-wrapper {
@@ -507,7 +507,7 @@ animation: FadeIn 1s ease-in-out;
 }
 
 .rsvp-btn:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
 }
 
 .envelope.open .letter {
@@ -1394,7 +1394,7 @@ background-blend-mode: overlay;
     font-family: 'Henny Penny', cursive;
     font-size: 5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #fada5e;
     text-shadow:  0 0 5px rgba(255, 255, 255, 0.8),
                   0 0 10px rgba(255, 255, 255, 0.6),
                   0 0 15px rgba(255, 255, 255, 0.4);
@@ -1411,7 +1411,7 @@ background-blend-mode: overlay;
 }
 
 .hero .btn:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
     color: #fff;
 }
 
@@ -1461,7 +1461,7 @@ button.btn-primary {
 }
 
 button.btn-primary:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
     
 } 
 
@@ -1603,7 +1603,7 @@ border-radius: 50%;
 }
 
 .rsvp-btn:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
 }
 
 .main-wrapper {
@@ -1649,7 +1649,7 @@ border-radius: 50%;
 }
 
 .rsvp-btn:hover {
-    background-color: #ffb3a1;
+    background-color:  var(--peach);
 }
 
 .envelope.open .letter {
@@ -1741,6 +1741,7 @@ audio {
 }
 
 }
+
 
 
 
