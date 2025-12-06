@@ -969,7 +969,7 @@ audio {
 
     .logo-img {
         width: 4rem;
-        border-radius: 6rem;
+        border-radius: 50%;
     }
 
     .hero h1 {
@@ -1407,6 +1407,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
