@@ -1403,10 +1403,13 @@ audio {
 
 }
 
-    button.music-btn: hover {
+    button.music-btn:hover {
     background-color: var(--hover);
 
 }
+}
+}
+
 
 
 
