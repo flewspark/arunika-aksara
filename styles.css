@@ -214,7 +214,7 @@ button.music-btn {
 
     z-index: 9999;        
 }
-button.music-btn: hover {
+button.music-btn:hover {
     background-color: var(--hover);
 
 }
@@ -238,7 +238,6 @@ body{
   align-items: center;
   justify-content: center;
 
-}
 }
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
@@ -956,7 +955,7 @@ audio {
     box-shadow: 0 0 1.875rem rgb(255, 255, 255);
 
 }
-    button.music-btn: hover {
+    button.music-btn:hover {
     background-color: var(--hover);
 }
 
@@ -1312,7 +1311,7 @@ audio {
     box-shadow: 0 0 1.875rem rgb(255, 255, 255);
 
 }
-    button.music-btn: hover {
+    button.music-btn:hover {
     background-color: var(--hover);
 }
 
@@ -2086,6 +2085,7 @@ audio {
     background-color: var(--hover);
 
 }
+
 
 
 
